@@ -9,6 +9,28 @@
 }
 
 body {
-  background-color: #f3f0f0;
+  background-color: #f7bae7;
   font-family: "Poppins", sans-serif;
 }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .swiper-button-prev::after{
+    font-size: 25px;
+  }
+  
+ .swiper-button-next::after{
+  font-size: 25px;
+ }
+
+ .swiper-button-next{
+  color: #db241b;
+ }
+
+
+  
+
+  
