@@ -61,6 +61,114 @@ body {
   margin-right: 180px;
  }
 
+ .menu-2{
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+ }
+
+ .logo-1{
+  width: 0;
+ }
+
+ .logo-2{
+  width: 150px;
+ }
+
+ .socials{
+  display: flex;
+ }
+
+ .social{
+  margin: 0 10px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #7b0563;
+  border-radius: 50%;
+ }
+
+ .social:hover{
+  background-color: #e763da;
+ }
+
+ .social img{
+  margin: 8px 0 0 10px;
+ }
+
+ .menu .navbar ul li{
+  position: relative;
+  float: left;
+ }
+
+ .menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+  display: block;
+ }
+
+ .menu .navbar ul li a:hover{
+  color: #7b0563;
+ }
+
+ #menu{
+  display: none;
+ }
+
+ .menu-icono{
+  width: 25px;
+ }
+
+ .menu label{
+  cursor: pointer;
+  display: none;
+ }
+
+ .header-content{
+  margin-top: 200px;
+  padding-bottom: 50px;
+ }
+
+ .slider{
+  display: flex;
+  align-items: center;
+ }
+
+ .slider-txt{
+  margin-left: 85px;
+  width: 50%;
+ }
+
+ .slider-txt h1{
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+ }
+
+ .slider-txt p{
+  font-size: 18px;
+  color:#76096d
+ }
+
+ .botones{
+  margin-top: 50px;
+ }
+
+ .btn-1{
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid #7b0563;
+  color: #180314;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  border-radius: 50px;
+ }
+
+
+
 
   
 
