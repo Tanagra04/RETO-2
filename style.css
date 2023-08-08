@@ -180,51 +180,7 @@ body {
   width: 550px;
  }
 
- .products{
-  background-color: #bef3f3;
- }
-
- .tabs{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 100px 0px;
- }
-
- .tabs label{
-  width: 15%;
-  order: 1;
-  display: block;
-  padding: 20px 0;
-  text-align: center;
-  cursor: pointer;
-  color: #36082a;
-  font-weight: 700;
-  transition: background ease 0.2s;
- }
-
- .tabs.tab{
-  order: 99;
-  flex-grow: 1;
-  width: 100%;
-  display: none;
-  padding-top: 25px;
- }
-
- .tabs input[type="radio"]{
-  display: none;
- }
-
- .tabs input[type="radio"]:checked + label{
-  border-bottom: 2px solid #76096d;
-  color: aliceblue;
- }
-
- .product{
-  display: flex;
-  align-items: center;
-  padding: 25px;
-  margin: 0 10px;
- }
+ 
 
 
 
