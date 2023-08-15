@@ -14,7 +14,7 @@ body {
 }
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -23,11 +23,11 @@ body {
   }
   
  .swiper-button-next::after{
-  font-size: 25px;
+    font-size: 25px;
  }
 
  .swiper-button-next{
-  color: #240365;
+    color: #240365;
  }
 
  .swiper-button-prev{
@@ -307,6 +307,145 @@ body {
   color: #3e0536;
   margin-bottom: 50px;
 }
+
+.btn-2{
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #270423;
+  color: #d3d2d2;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.btn-2:hover{
+  background-color: #eea4e4;
+}
+
+.horario{
+  padding: 100px 0px;
+  background-color: #f692e6;
+}
+
+.horario-info h2{
+  font-size: 35px;
+  color: #4e0b3e;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.horario-txt{
+  display: flex;
+  justify-content: space-between;
+}
+
+.txt{
+  color: #f6f6f6;
+}
+
+.txt h4{
+  font-size: 18px;
+  color: #4d0342;
+  margin-bottom: 30px;
+}
+
+.txt p{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+}
+
+.map{
+  filter: pink(10%) invert(92%) contrast(93%);
+}
+
+.footer{
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links h4{
+  color: #530a39;
+  text-transform: uppercase;
+  margin-bottom: 25px
+}
+
+.links ul li a{
+  color: #d9379e;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+@media(max-width:991px){
+  .menu{
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .menu-2{
+    display: none;
+  }
+
+  .logo-1{
+    width: 100px;
+  }
+
+  .logo-2{
+    width: 0;
+  }
+
+  .menu label{
+    display: initial;
+  }
+
+  .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #181818;
+    display: none;
+  }
+
+  .menu .navbar ul li{
+    width: 100%;
+  }
+
+  .menu:checked ~ .navbar{
+    display: initial;
+  }
+
+  .header-content{
+    padding: 30px;
+    margin-top: 100px;
+  }
+
+  .slider{
+    flex-direction: column;
+  }
+
+  .slider-txt{
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .slider-txt h1{
+    font-size: 50px;
+  }
+
+  .slider-txt p{
+    font-size: 16px;
+  }
+  
+}
+
 
 
   
