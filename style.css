@@ -216,7 +216,7 @@ body {
 
  .tabs input[type="radio"]:checked + label{
     border-bottom: 2px solid #6d0862;
-    color: #0b8a53;
+    color: #d3d2d2;
  }
 
  .tabs input[type="radio"]:checked + label + .tab{
@@ -286,7 +286,7 @@ body {
 }
 
 .info{
-  width: 50%;
+  width: 100%;
 }
 
 .info-img img{
@@ -296,10 +296,11 @@ body {
 
 .info-txt{
   width: 50%;
+  text-align: right;
 }
 
 .info-txt h2{
-  font-size: 40px;
+  font-size: 30px;
   color: #270423;
   font-weight: 800;
   text-transform: uppercase;
@@ -328,7 +329,7 @@ body {
 
 .horario{
   padding: 100px 0px;
-  background-color: #8ed4cc;
+  background-color: #eca966;
 }
 
 .horario-info h2{
