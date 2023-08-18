@@ -35,7 +35,7 @@ body {
  }
 
  .swiper-pagination-bullet{
-  background-color: #d3d2d2;
+  background-color: #f0b1b1;
   opacity: 1;
  }
 
@@ -181,7 +181,7 @@ body {
  }
 
  .products{
-    background-color: #ecc4e1;
+    background-color: #dd46b3;
  }
 
  .tabs{
@@ -216,10 +216,10 @@ body {
 
  .tabs input[type="radio"]:checked + label{
     border-bottom: 2px solid #6d0862;
-    color: #1ff196;
+    color: #0b8a53;
  }
 
- tabs input[type="radio"]:checked + label + .tab{
+ .tabs input[type="radio"]:checked + label + .tab{
   display: block;
  }
 
@@ -274,7 +274,7 @@ body {
 }
 
 .product-txt span{
-  color: #d3d2d2;
+  color: #f4d3d3;
   font-size: 18px;
   font-weight: 800;
 }
@@ -290,8 +290,8 @@ body {
 }
 
 .info-img img{
-  width: 500px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 .info-txt{
@@ -299,7 +299,7 @@ body {
 }
 
 .info-txt h2{
-  font-size: 75px;
+  font-size: 40px;
   color: #270423;
   font-weight: 800;
   text-transform: uppercase;
@@ -328,7 +328,7 @@ body {
 
 .horario{
   padding: 100px 0px;
-  background-color: #f692e6;
+  background-color: #8ed4cc;
 }
 
 .horario-info h2{
@@ -345,7 +345,7 @@ body {
 }
 
 .txt{
-  color: #f6f6f6;
+  color: #4a3344;
 }
 
 .txt h4{
@@ -379,7 +379,7 @@ body {
 }
 
 .links ul li a{
-  color: #d9379e;
+  color: #e625af;
   font-size: 16px;
   margin-bottom: 5px;
   display: inline-block;
